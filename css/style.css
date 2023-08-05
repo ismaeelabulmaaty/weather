@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #1E202B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+}
+
+ul li {
+    padding: 10px 20px;
+}
+
+.navbar .nav-link {
+    padding: 2px 35px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+    transition: all .5s;
+
+}
+
+.navbar .nav-link:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+
+
+.navbar-nav .nav-link.active {
+    padding: 0px 15px;
+    border-color: #009ad8;
+    color: #009ad8;
+}
+
+h5 {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.sem {
+    font-size: 1rem;
+}
+
+.nem {
+    width: 100px;
+}
+
+
+.home {
+    background-image: url(../images/banner.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.semo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    margin-top: 50px;
+}
+
+body {
+    max-height: 700px;
+
+}
+
+.Weather img {
+    width: 70px;
+}
+
+.Weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details img {
+    width: 25px;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.coll {
+    margin-top: 30px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coll p {
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header button,
+input {
+    margin-top: 25px;
+    padding: 5px 25px;
+    height: 50px;
+}
+
+.card-header {
+    padding: 5px 25px;
+    height: 50px;
+}
+
+.searchBtn {
+    border-color: #009ad8;
+    color: #009ad8;
+    background-color: transparent;
+    transition: all .3s ease;
+}
+
+.searchBtn:hover {
+    border-color: #009ad8;
+    color: #009ad8;
+}
